@@ -38,7 +38,7 @@
 		017F0B311D1CC6D500E888F5 = {
 			isa = PBXGroup;
 			children = (
-				017F0B3C1D1CC6D500E888F5 /* navigationControllerhomework */,
+				017F0B3C1D1CC6D500E888F5 /* tabcontroller */,
 				017F0B3B1D1CC6D500E888F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		017F0B3C1D1CC6D500E888F5 /* navigationControllerhomework */ = {
+		017F0B3C1D1CC6D500E888F5 /* tabcontroller */ = {
 			isa = PBXGroup;
 			children = (
 				017F0B3D1D1CC6D500E888F5 /* AppDelegate.swift */,
@@ -61,6 +61,7 @@
 				017F0B461D1CC6D500E888F5 /* LaunchScreen.storyboard */,
 				017F0B491D1CC6D500E888F5 /* Info.plist */,
 			);
+			name = tabcontroller;
 			path = navigationControllerhomework;
 			sourceTree = "<group>";
 		};
