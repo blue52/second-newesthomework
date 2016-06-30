@@ -18,6 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water (1)" translatesAutoresizingMaskIntoConstraints="NO" id="MCY-ar-uge"/>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2YQ-Xd-FVk">
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tl8-Rf-vDg">
@@ -62,14 +63,16 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2YQ-Xd-FVk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3aa-Xo-rxF"/>
+                            <constraint firstItem="MCY-ar-uge" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ivc-L7-ZWh"/>
                             <constraint firstItem="2YQ-Xd-FVk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kKq-la-l3d"/>
+                            <constraint firstItem="MCY-ar-uge" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t4D-lU-QAS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="唐詩作者" id="nJd-oS-gjd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1152" y="800"/>
+            <point key="canvasLocation" x="1069.5999999999999" y="797.45127436281871"/>
         </scene>
         <!--李清照-->
         <scene sceneID="3JK-dS-vPG">
@@ -119,7 +122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hiJ-kY-s5t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1854" y="801"/>
+            <point key="canvasLocation" x="1796" y="799"/>
         </scene>
         <!--菩薩蠻-->
         <scene sceneID="A7c-yV-dH4">
@@ -248,7 +251,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4LS-vC-DJr" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="唐詩" image="tea_cup-2" id="blh-mM-HOc"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JYn-qN-eTz">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="JYn-qN-eTz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -273,6 +276,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water (1)" translatesAutoresizingMaskIntoConstraints="NO" id="7GT-3D-Biw"/>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wW7-Dy-UHX">
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Naj-No-c3k">
@@ -311,7 +315,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="7GT-3D-Biw" firstAttribute="centerY" secondItem="pEZ-r3-Zpf" secondAttribute="centerY" id="cqg-WU-V1s"/>
                             <constraint firstItem="wW7-Dy-UHX" firstAttribute="centerX" secondItem="pEZ-r3-Zpf" secondAttribute="centerX" id="cth-zk-UrM"/>
+                            <constraint firstItem="7GT-3D-Biw" firstAttribute="centerX" secondItem="pEZ-r3-Zpf" secondAttribute="centerX" id="kaO-uD-tbx"/>
                             <constraint firstItem="wW7-Dy-UHX" firstAttribute="centerY" secondItem="pEZ-r3-Zpf" secondAttribute="centerY" id="y5H-1g-isd"/>
                         </constraints>
                     </view>
@@ -1192,7 +1198,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="heL-eE-DdR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-319" y="1066"/>
+            <point key="canvasLocation" x="-291" y="799"/>
         </scene>
         <!--宋詞-->
         <scene sceneID="j5Z-Vg-JBj">
@@ -1200,7 +1206,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RJB-XN-SCm" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="宋詞" image="ice_cream_sprinkles-2" id="0pb-zv-6cf"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kLn-j6-TD1">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="kLn-j6-TD1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1217,5 +1223,6 @@
     <resources>
         <image name="ice_cream_sprinkles-2" width="32" height="32"/>
         <image name="tea_cup-2" width="32" height="32"/>
+        <image name="water (1)" width="1000" height="1571"/>
     </resources>
 </document>
